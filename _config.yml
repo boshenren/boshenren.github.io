@@ -10,11 +10,11 @@
 locale                   : "en-US"
 title                    : "Boshen Ren / Academic Website"
 title_separator          : "-"
-name                     : &name "Boshen Ren"
-description              : &description "personal description"
+name                     : <p align="center">Boshen Ren</p>  # &name "Boshen Ren"
+description              : &description "WBGCAS & Tibet University"
 url                      : https://boshenren.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "boshenren/boshenren.github.io"
+repository               : "https://github.com/boshenren/boshenren.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -77,10 +77,10 @@ author:
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
+words_per_minute         : 300
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+talkmap_link             : false  # change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -137,7 +137,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
