@@ -18,13 +18,14 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}
-      <p class="author__bio">
-        {% capture bio_with_links %}
-          {{ author.bio | replace: "Tibet University", "<a href='http://www.utibet.edu.cn/'>Tibet University</a>" | replace: "WBGCAS", "<a href='http://www.wbgcas.cn/'>WBGCAS</a>" }}
-        {% endcapture %}
-        {{ bio_with_links | markdownify }}
-      </p>
+    <p class="author__bio">
+      {% capture bio_with_links %}
+        {{ author.bio | replace: "Tibet University", "<a href='http://www.tibet.edu.cn/'>Tibet University</a>" | replace: "WBGCAS", "<a href='http://www.wbgcas.cn/'>WBGCAS</a>" }}
+      {% endcapture %}
+      {{ bio_with_links | safe }}
+    </p>
     {% endif %}
+
   </div>
 
   <div class="author__urls-wrapper">
