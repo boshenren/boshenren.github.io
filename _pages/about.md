@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third-year master's student from [LIESMARS](http://www.lmars.whu.edu.cn/en), [Wuhan University](https://en.whu.edu.cn/).<br>
-Advisor: *Prof.* [Luliang Tang](http://jszy.whu.edu.cn/tangluliang).
+I'm a third-year master's student jointly trained by [Tibet University](https://www.utibet.edu.cn/) and [Wuhan Botanical Garden, Chinese Academy of Sciences](https://www.wbgcas.cn/).<br>
+Advisor: Assoc. Prof. [Qinghu Jiang](https://people.ucas.ac.cn/~0070769)
 
   The rapid development of mobile positioning and computing technologies has led to massive *Geographic Big Data*, creating unprecedented opportunities for *Urban Sensing*. My research utilizes *geographic big data* (especially trajectory data) to address problems in *human mobility* and *complex urban transport systems* by developing innovative *geospatial analytical methods*.
   
