@@ -1,49 +1,38 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I'm a third-year master's student from [LIESMARS](http://www.lmars.whu.edu.cn/en), [Wuhan University](https://en.whu.edu.cn/).<br>
+Advisor: *Prof.* [Luliang Tang](http://jszy.whu.edu.cn/tangluliang).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+  The rapid development of mobile positioning and computing technologies has led to massive *Geographic Big Data*, creating unprecedented opportunities for *Urban Sensing*. My research utilizes *geographic big data* (especially trajectory data) to address problems in *human mobility* and *complex urban transport systems* by developing innovative *geospatial analytical methods*.
+  
+  My research is devoted to addressing three main characteristics of geographic big data: **High-dimensional**, **Non-linear**, and **High-dynamic**.
+  - *High-dimensional*: We combine **GIScience methods** with **Tensor Theory** to deal with high-dimensional spatio-temporal field data.
+  - *Non-linear*: We combine **GIScience methods** with **Deep Learning** (e.g., Transformer) to reveal the intrinsic structure of complex spatio-temporal data.
+  - *High-dynamic*: We break through the two-point form (origin-destination) for flow characterization and innovatively propose **Path Flow**.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## 🏷️ Research interest:
+  * 👫 Human Mobility
+  * 🌏 Geographic Information Science
+  * 🏙️ Urban Informatics
+  * 🚕 Intelligent Transportation Systems
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## 👇 *What's New*!
+  * 📄 December 2023. Check our new publication: ***Diagnosing Urban Traffic Anomalies by Integrating Geographic Knowledge and Tensor Theory*** in *GIScience & Remote Sensing*! [[Paper](https://doi.org/10.1080/15481603.2023.2290347)]
+  * 📄 November 2023. Check our new publication: ***Achieving fine-grained urban flood perception and spatio-temporal evolution analysis based on social media*** in *Sustainable Cities and Society*! [[Paper](https://doi.org/10.1016/j.scs.2023.105077)]
+  * 🏆 October 2023. Congratulations to ***Zilong Zhao*** for receiving the **National Scholarship**, Ministry of Education of China, 2023.
+  * 📄 October 2023. Check our new publication: ***Towards integrated and fine-grained traffic forecasting: A spatio-temporal heterogeneous graph transformer approach*** in *Information Fusion*! [[Paper](https://doi.org/10.1016/j.inffus.2023.102063)]
+  * 🎙️ August 2023. ***Zilong Zhao***'s presentation won the *GSCS&ICUI 2023* **Best Presentation Award**!
+  * 📄 August 2023. Check our new publication: ***Identifying Critical Urban Intersections from a Fine-grained Spatio-Temporal Perspective*** in *Travel Behaviour and Society*! [[Paper](https://doi.org/10.1016/j.tbs.2023.100649)]
+  * 📄 July 2023. Check our new publication: ***Toward urban traffic scenarios and more: a spatio-temporal analysis empowered low-rank tensor completion method for data imputation*** in *International Journal of Geographical Information Science*! [[Paper](https://www.tandfonline.com/doi/full/10.1080/13658816.2023.2234434)] [[Code](https://figshare.com/articles/online_resource/ST-LRTC_Code_Data_zip/20289078)]
+  * 🎙️ May 2023. ***Zilong Zhao*** presented how to diagnose urban anomalies by combining tensor theory and geographic analysis methods at *GIS Annual Conference* (2023).
+  * 📈 December 2022. *Urban Sensing and Green Transportation Team* (Leader: ***Zilong Zhao***) won the National Third Prize in China Postgraduate ‘Carbon Peaking and Carbon Neutrality’ Innovation and Creativity Contest.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## 👨‍💼 For more information：
+  More info about Zilong Zhao can be found in [CV](http://zilzhao.github.io/files/Zilong_Zhao_CV.pdf).
