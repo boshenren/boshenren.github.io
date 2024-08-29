@@ -7,21 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third-year master's student jointly trained by [Tibet University](https://www.utibet.edu.cn/) and [Wuhan Botanical Garden, Chinese Academy of Sciences](https://www.wbgcas.cn/).<br>
+I'm a third-year master's student in Global Change Ecology, specializing in Vegetation Remote Sensing. I'm jointly trained by [Tibet University](https://www.utibet.edu.cn/) and [Wuhan Botanical Garden, Chinese Academy of Sciences](https://www.wbgcas.cn/).<br>
 Advisor: Assoc. Prof. [Qinghu Jiang](https://people.ucas.ac.cn/~0070769)
 
-  The rapid development of mobile positioning and computing technologies has led to massive *Geographic Big Data*, creating unprecedented opportunities for *Urban Sensing*. My research utilizes *geographic big data* (especially trajectory data) to address problems in *human mobility* and *complex urban transport systems* by developing innovative *geospatial analytical methods*.
-  
-  My research is devoted to addressing three main characteristics of geographic big data: **High-dimensional**, **Non-linear**, and **High-dynamic**.
-  - *High-dimensional*: We combine **GIScience methods** with **Tensor Theory** to deal with high-dimensional spatio-temporal field data.
-  - *Non-linear*: We combine **GIScience methods** with **Deep Learning** (e.g., Transformer) to reveal the intrinsic structure of complex spatio-temporal data.
-  - *High-dynamic*: We break through the two-point form (origin-destination) for flow characterization and innovatively propose **Path Flow**.
+The escalating global biodiversity and climate crises demand urgent action in ecosystem protection, restoration, and management. Traditional field research alone cannot keep pace with the rapid and widespread changes occurring in our ecosystems. Remote sensing, particularly hyperspectral technology, offers a powerful solution for frequent and continuous monitoring of ecosystems and their biodiversity across vast areas.
 
-## 🏷️ Research interest:
-  * 👫 Human Mobility
-  * 🌏 Geographic Information Science
-  * 🏙️ Urban Informatics
-  * 🚕 Intelligent Transportation Systems
+My research harnesses the potential of multi-scale hyperspectral remote sensing to advance our understanding of plant diversity, functional traits, and ecosystem dynamics from a spectral perspective. By leveraging near-ground UAV-based hyperspectral imaging and plant spectroscopy , we aim to develop innovative methods for remote biodiversity monitoring and ecosystem assessment.
+
+
+## 🏷️ Research interests:
+* 🌿 Vegetation Remote Sensing
+* 📡 Hyperspectral Remote Sensing
+* 🦋 Biodiversity and Ecosystem Functions
+* 🍃 Plant Functional Traits
 
 ## 👇 *What's New*!
   * 📄 December 2023. Check our new publication: ***Diagnosing Urban Traffic Anomalies by Integrating Geographic Knowledge and Tensor Theory*** in *GIScience & Remote Sensing*! [[Paper](https://doi.org/10.1080/15481603.2023.2290347)]
