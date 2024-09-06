@@ -33,4 +33,4 @@ My research harnesses the potential of multi-scale hyperspectral remote sensing 
   * 📈 December 2022. *Urban Sensing and Green Transportation Team* (Leader: ***Zilong Zhao***) won the National Third Prize in China Postgraduate ‘Carbon Peaking and Carbon Neutrality’ Innovation and Creativity Contest.
 
 ## 👨‍💼 For more information：
-  More info about Zilong Zhao can be found in [CV](http://zilzhao.github.io/files/Zilong_Zhao_CV.pdf).
+  More info about Boshen Ren can be found in [CV](http://zilzhao.github.io/files/Zilong_Zhao_CV.pdf).
