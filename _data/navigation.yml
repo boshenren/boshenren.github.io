@@ -5,6 +5,7 @@
 # prevent it from being included in the site.
 
 main:
+
   - title: "Education"
     url: /education/
 
@@ -13,10 +14,7 @@ main:
 
   - title: "Skills"
     url: /Skills/    
-    
-  # - title: "Academic Activities"
-  #   url: /Conference/
-        
+
   - title: "Publications"
-    url: /Publications/
+    url: /publications/
     
