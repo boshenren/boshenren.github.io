@@ -212,7 +212,7 @@ collections:
   education:
     output: true
     permalink: /:collection/:path/
-  Reaseach:
+  Research:
     output: true
     permalink: /:collection/:path/
   Skills:
